@@ -38,7 +38,7 @@
 .Menu-Item-Content{
     background-color: white;
     overflow: auto;
-    transition: max-height 0.3s ease-in;
+    transition: max-height 0.3s ease;
 }
 
 /* Style the Menu Item Image */
@@ -48,7 +48,7 @@
   width:10vh;
   object-fit:cover;
   margin-left:3vw;
-  transition: border-radius 0.07s ease;
+  transition: border-radius 0.3s ease;
 }
 
 /* Style the Menu Item Image while it is active. Note: this is the larger Image */
@@ -56,7 +56,7 @@
     border-radius: 0%;
     height: 40vh;
     width: auto;
-    transition: border-radius 0.07s ease;
+    transition: border-radius 0.3s ease-in;
 }
 .overlay{
   height: 40.5vh;
