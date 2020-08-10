@@ -1,0 +1,12 @@
+.Header{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: salmon;
+    color: whitesmoke;
+}
+
+.Header p {
+    padding: 18px;
+}
