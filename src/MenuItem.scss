@@ -2,13 +2,13 @@
 .Menu-Item-Section{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 /* Style the buttons that are used to open and close the Menu Item */
 .Menu-Item{
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
   display: flex;
   align-items: center;
   border: none;
@@ -26,6 +26,7 @@
 .Menu-Item-Icon{
     margin-left: auto;
     transition: transform 0.6s ease;
+    margin-right: 3vw;
 }
 
 /* Style to rotate icon when state is active */
@@ -40,10 +41,66 @@
     transition: max-height 0.6s ease;
 }
 
+/* Style the Menu Item Image */
+.Menu-Item-Img{
+  border-radius: 50%;
+  height: 10vh;
+  width:10vh;
+  object-fit:cover;
+  margin-left:3vw;
+  transition: border-radius 0.5s ease;
+}
+
+/* Style the Menu Item Image while it is active. Note: this is the larger Image */
+.Menu-Item-Img-Bg{
+    border-radius: 0%;
+    height: 40vh;
+    width: auto;
+    transition: border-radius 0.5s ease;
+}
+.overlay{
+  height: 40vh;
+  width:100vw;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.65); /* Black see-through */
+}
+
+/* Styling the Menu Title Text */
+.Menu-Item-Title{
+    font-size: 22px;
+    padding: 18px;
+    padding-top: 5vh;
+    padding-bottom:5vh;
+}
+.Menu-Item-Title-Bg{
+    font-size: 25px;
+    color:white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+/* Style the Menu Item Price. Note: Hidden by default*/
+.Menu-Item-Price{
+   display:none;
+}
+
+/* Style the Menu Item Price To show when .active state is set */
+.Menu-Item-Price-Bg{
+    font-family: "Gotham-Rounded";
+    font-weight: 700;
+    font-size: 55px;
+    color:white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+
 /* Style the Menu Item content text */
 .Menu-Item-Text{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     padding: 18px;
 }
