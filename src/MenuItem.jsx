@@ -1,5 +1,6 @@
 import React, { Component, useState, useRef} from 'react';
 import Chevron from "./Chevron";
+import LazyLoad from 'react-lazy-load';
 
 import "./MenuItem.scss"
 
@@ -39,7 +40,9 @@ function MenuItem(props){
     return (
         <div className="Menu-Item-Section">
             <button className={`Menu-Item ${setActive}`} onClick={toggleMenuItem}>
+                <LazyLoad debounce={false} >
                 <img className={`${setImg}`} src={props.img} alt="menu-item-image"/>
+                </LazyLoad>
                 <div className={`${setOverlay}`}></div>
                 <p className={`${setTitle}`}>{props.title}</p>
                 <h3 className={`${setPrice}`}>{props.price}</h3>
