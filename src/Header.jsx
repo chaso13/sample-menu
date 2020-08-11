@@ -5,7 +5,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
-                <p>This is the header where the business logo and name will go</p>
+                <img className='Logo' src={'/assets/logo_transparent1.png'} alt='Casa de Ambrosia Logo'/>
             </div>
         );
     }

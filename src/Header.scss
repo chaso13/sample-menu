@@ -1,12 +1,20 @@
 .Header{
-    height:auto;
+    max-height:8vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    background-color: salmon;
+    background-color: #EACD65;
     color: whitesmoke;
 }
 
-.Header p {
-    padding: 18px;
+
+
+.Logo{
+    height:8vh;
+    width: auto;
+    align-items:center;
+    overflow:hidden;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
