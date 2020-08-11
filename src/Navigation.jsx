@@ -4,9 +4,9 @@ class Navigation extends Component {
     render() {
         return (
             <div className="Navigation">
-                <button className='Food'>Food</button>
-                <p>This is where the navigation between different pages will be</p>
-                <button className='Drinks'>Drinks</button>
+                <button className='Food Active-Button'>Food</button>
+                
+                <button className='Drinks '>Drinks</button>
             </div>
         );
     }
