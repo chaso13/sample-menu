@@ -74,7 +74,7 @@
   height: 40.5vh;
   width:100vw;
   position: absolute;
-  background: rgba(103, 103, 103, 0.78); /* Black see-through */
+  background: rgba(103, 103, 103, 0.45); /* Black see-through */
 }
 
 /* Styling the Menu Title Text */
@@ -88,7 +88,7 @@
 }
 .Menu-Item-Title-Bg{
     font-size: 40px;
-    text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.5);
+    text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.75);
     color:white;
     position: absolute;
     left: 50%;
@@ -104,7 +104,7 @@
 .Menu-Item-Price-Bg{
     font-family: 'Varela Round', sans-serif;
     font-size: 65px;
-    text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.5);
+    text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.75);
     color:white;
     position: absolute;
     left: 50%;
