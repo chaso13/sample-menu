@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
 .Header{
-    max-height:8vh;
+    max-height:10vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -17,4 +19,6 @@
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-top:1vh;
+    margin-bottom:1vh;
 }

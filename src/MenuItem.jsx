@@ -1,4 +1,4 @@
-import React, { Component, useState, useRef} from 'react';
+import React, {  useState, useRef} from 'react';
 import Chevron from "./Chevron";
 import LazyLoad from 'react-lazy-load';
 

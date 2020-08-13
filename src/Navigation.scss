@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
 .Navigation{
     height:auto;
     display: flex;
@@ -11,19 +13,7 @@
     background-color: #eee;
 }
 
-.Food{
-    
-    background-color: #eee;
-    width:50vw;
-    height:10vh;
-    outline:none;
-    border:none;
-    font-size: 18px;
-    padding:0;
-    margin:0;
-    font-size: 22px;
-} 
-.Drinks{
+.Button{
     
     background-color: #eee;
     width:50vw;
@@ -37,5 +27,5 @@
 }
 
 .Active-Button{
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #e14342;
 }

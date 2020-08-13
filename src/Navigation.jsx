@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
+import { NavLink} from 'react-router-dom';
 import './Navigation.scss'
 class Navigation extends Component {
     render() {
         return (
             <div className="Navigation">
-                <button className='Food Active-Button'>Food</button>
                 
-                <button className='Drinks '>Drinks</button>
+                <NavLink
+                    to="/"
+                    exact={true}
+                    activeClassName='Active-Button'
+                >
+                    <button className='Button'>Food</button>
+                </NavLink>
+                <NavLink 
+                    to="/drinks"
+                    activeClassName='Active-Button'
+                >
+                    <button className='Button'>Drinks</button>
+                </NavLink>
+    
             </div>
         );
     }

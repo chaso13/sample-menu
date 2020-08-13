@@ -4,10 +4,10 @@ class Footer extends Component {
     render() {
         return (
             <div className="Footer">
-                <p>This is the footer</p>
-                <br/>
-                <p>There will be contact information and social media links here and such</p>
-                <br/>
+                <p>This webpage is created as sample for touchless menus</p>
+                <div className="Footer-Spacer"/>
+                <p>WebAmbrosia LLC 2020 © </p>
+                <div className="Footer-Spacer"/>
             </div>
         );
     }

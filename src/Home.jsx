@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import MenuItem from './MenuItem';
-import Footer from './Footer';
-import Header from './Header';
-import Navigation from './Navigation';
 
 class Home extends Component {
     render() {
@@ -16,8 +13,6 @@ class Home extends Component {
                 <MenuItem img="/assets/carnitas-resized.jpg" title="Carnitas" content="Do you want the most delicious taco you will ever shove into that beautiful mouth of yours? It’s right here. These Pork Carnitas Tacos are literally the best." price="$12.99"/>
                 <MenuItem img="/assets/Nachos1-resized.jpg" title="Nachos" content="Crispy chips with melted cheese, ground beef, refried beans, and all of your favorite toppings." price="$14.99"/>
                 <MenuItem img="/assets/mexico-burger1-resized.jpg" title="Mexico Burger" content="Loaded with all your favorite flavors – chorizo, ground beef, cilantro, chiles in adobo, queso fresco and cumin." price="$12.99"/>
-
-              
             </div>
         );
     }
