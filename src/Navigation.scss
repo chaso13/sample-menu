@@ -11,12 +11,12 @@
     top: 0;
     z-index: 1000;
     padding:0;
-    background-color: #fff8dc;
+    background-color: #fffff0;
 }
 
 .Button{
     
-    background-color:#fff8dc;
+    background-color:#fffff0;
     width:50vw;
     height:10vh;
     outline:none;
@@ -26,8 +26,14 @@
     margin:0;
     font-size: 22px;
     font-family: 'Varela Round', sans-serif;
+    color: #bebebe;
+    box-shadow: 0px 4px 6px -6px rgba(169, 169, 169, 0.6);
 }
 
 .Active-Button{
     border-bottom: 3px solid #e14342;
+    
+}
+.Active-Button > .Button{
+    color: #676767;
 }

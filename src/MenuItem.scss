@@ -12,7 +12,7 @@
 /* Style the buttons that are used to open and close the Menu Item */
 .Menu-Item{
   background-color: #fffff0;
-  color: #444;
+  color: #676767;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -33,6 +33,7 @@
     margin-left: auto;
     transition: transform 0.6s ease;
     margin-right: 3vw;
+    color:#676767;
 }
 
 /* Style to rotate icon when state is active */
@@ -68,8 +69,7 @@
   height: 40.5vh;
   width:100vw;
   position: absolute;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.65); /* Black see-through */
+  background: rgba(103, 103, 103, 0.78); /* Black see-through */
 }
 
 /* Styling the Menu Title Text */
@@ -78,9 +78,11 @@
     padding: 7vw;
     padding-top: 7vh;
     padding-bottom:7vh;
+    color:#676767;
 }
 .Menu-Item-Title-Bg{
-    font-size: 28px;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(32, 32, 32);
     color:white;
     position: absolute;
     left: 50%;
@@ -95,8 +97,8 @@
 /* Style the Menu Item Price To show when .active state is set */
 .Menu-Item-Price-Bg{
     font-family: 'Varela Round', sans-serif;
-    font-weight: 400;
     font-size: 55px;
+    text-shadow: 1px 1px 2px rgb(32, 32, 32);
     color:white;
     position: absolute;
     left: 50%;
@@ -106,7 +108,7 @@
 
 /* Style the Menu Item content text */
 .Menu-Item-Text{
-    
+    color:#555555;
     font-weight: 400;
     font-size: 20px;
     padding: 18px;

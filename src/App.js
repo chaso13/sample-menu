@@ -6,7 +6,7 @@ import Header from './Header';
 import Navigation from './Navigation';
 import DrinkHome from './DrinkHome';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/drinks" component={DrinkHome}/>
       </Switch>
     <Footer/>
+    <div className="fade-out"></div>
     </div>
   );
 }
