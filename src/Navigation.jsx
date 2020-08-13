@@ -11,13 +11,13 @@ class Navigation extends Component {
                     exact={true}
                     activeClassName='Active-Button'
                 >
-                    <button className='Button'>Food</button>
+                    <button className='Button'>FOOD</button>
                 </NavLink>
                 <NavLink 
                     to="/drinks"
                     activeClassName='Active-Button'
                 >
-                    <button className='Button'>Drinks</button>
+                    <button className='Button'>DRINKS</button>
                 </NavLink>
     
             </div>
