@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 /* Style the Menu Section */
 .Menu-Item-Section{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 /* Style the buttons that are used to open and close the Menu Item */
 .Menu-Item{
@@ -17,7 +18,7 @@
   align-items: center;
   border: none;
   outline: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   
 }
 
@@ -41,7 +42,7 @@
 
 /* Style the Menu item control panel.  Note: hidden by default */
 .Menu-Item-Content{
-    background-color: white;
+    background-color: #fefefa;
     overflow: auto;
     transition: max-height 0.3s ease;
 }
@@ -93,7 +94,7 @@
 
 /* Style the Menu Item Price To show when .active state is set */
 .Menu-Item-Price-Bg{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 400;
     font-size: 55px;
     color:white;
@@ -109,4 +110,5 @@
     font-weight: 400;
     font-size: 20px;
     padding: 18px;
+    font-family: 'Varela Round', sans-serif;
 }
