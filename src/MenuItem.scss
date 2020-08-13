@@ -56,6 +56,9 @@
   object-fit:cover;
   margin-left:3vw;
   transition: border-radius 0.3s ease;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(103, 103, 103, .5);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(103, 103, 103, .5);
+  box-shadow: 1px 1px 1px 0px rgba(103, 103, 103, .5);
 }
 
 /* Style the Menu Item Image while it is active. Note: this is the larger Image */
@@ -74,7 +77,7 @@
 
 /* Styling the Menu Title Text */
 .Menu-Item-Title{
-    font-size: 22px;
+    font-size: 20px;
     padding: 7vw;
     padding-top: 7vh;
     padding-bottom:7vh;
@@ -82,7 +85,7 @@
 }
 .Menu-Item-Title-Bg{
     font-size: 40px;
-    text-shadow: 1px 1px 2px rgb(32, 32, 32);
+    text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.5);
     color:white;
     position: absolute;
     left: 50%;
@@ -97,8 +100,8 @@
 /* Style the Menu Item Price To show when .active state is set */
 .Menu-Item-Price-Bg{
     font-family: 'Varela Round', sans-serif;
-    font-size: 55px;
-    text-shadow: 1px 1px 2px rgb(32, 32, 32);
+    font-size: 65px;
+    text-shadow: 5px 5px 10px rgba(32, 32, 32, 0.5);
     color:white;
     position: absolute;
     left: 50%;

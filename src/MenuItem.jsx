@@ -46,7 +46,7 @@ function MenuItem(props){
                 <div className={`${setOverlay}`}></div>
                 <p className={`${setTitle}`}>{props.title}</p>
                 <h3 className={`${setPrice}`}>{props.price}</h3>
-                <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
+                {/*<Chevron className={`${setRotate}`} width={10} fill={"#777"} />*/}
             </button>
             <div
               ref={content}
