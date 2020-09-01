@@ -10,8 +10,9 @@ function MenuItem(props){
     const [setRotate, setRotateState] = useState("Menu-Item-Icon");
     const [setImg, setImgState] = useState("Menu-Item-Img");
     const [setTitle, setTitleState] = useState("Menu-Item-Title");
-    const [setPrice, setPriceState] = useState("Menu-Item-Price")
+    const [setPrice, setPriceState] = useState("Menu-Item-Price");
     const [setOverlay, setOverlayState] = useState("");
+    const [setCheckoutIcon, setCheckoutIconState] = useState("Menu-Item-Checkout-Icon");
 
     const content = useRef(null);
 
@@ -35,6 +36,9 @@ function MenuItem(props){
         setOverlayState(
             setActive === "active" ? "" : "overlay"
         );
+        setCheckoutIconState(
+            setActive === "active" ? "Menu-Item-Checkout-Icon" : "Menu-Item-Checkout-Icon-Active"
+        );
     }
 
     return (
@@ -53,10 +57,14 @@ function MenuItem(props){
               style={{ maxHeight: `${setHeight}`}}
               className="Menu-Item-Content">
                 
-                <div className="Menu-Item-Text"
-                    dangerouslySetInnerHTML={{ __html: props.content }}
-                />
+                <div className="Menu-Item-Text">
+                    {/*dangerouslySetInnerHTML={{ __html: props.content }}*/}
+                    
+                        <p>{`${props.content}`}</p>
+                        <img className={`${setCheckoutIcon}`} src="./assets/bag.png" alt="cart-icon"/>
+                </div>
 
+                
             </div>
 
         </div>
